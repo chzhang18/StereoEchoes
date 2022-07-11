@@ -2,10 +2,10 @@ Code for *Stereo Depth Estimation with Echoes*, accepted at ECCV 2022.
 
 **StereoEchoes Framework**
 
-framework.png
+![](images/framework.PNG)
 
 **Abstract**
-Stereo depth estimation is particularly amenable to local textured regions while echoes have good depth estimations for global textureless regions, thus the two modalities complement each other. Motivated by the reciprocal relationship between both modalities, in this paper, we propose an end-to-end framework named *StereoEchoes* for stereo depth estimation with echoes. A Cross-modal Volume Refinement module is designed to transfer the complementary knowledge of the audio modality to the visual modality at feature level. A Relative Depth Uncertainty Estimation module is further proposed to yield pixel-wise confidence for multimodal depth fusion at output space. As there is no dataset for this new problem, we introduce two Stereo-Echo datasets named Stereo-Replica and Stereo-Matterport3D for the first time. Remarkably, we show empirically that our StereoEchoes, on Stereo-Replica and Stereo-Matterport3D, outperforms stereo depth estimation methods by $25\%/13.8\%$ RMSE, and surpasses the state-of-the-art audio-visual depth prediction method by $25.3\%/42.3\%$ RMSE.
+Stereo depth estimation is particularly amenable to local textured regions while echoes have good depth estimations for global textureless regions, thus the two modalities complement each other. Motivated by the reciprocal relationship between both modalities, in this paper, we propose an end-to-end framework named *StereoEchoes* for stereo depth estimation with echoes. A Cross-modal Volume Refinement module is designed to transfer the complementary knowledge of the audio modality to the visual modality at feature level. A Relative Depth Uncertainty Estimation module is further proposed to yield pixel-wise confidence for multimodal depth fusion at output space. As there is no dataset for this new problem, we introduce two Stereo-Echo datasets named Stereo-Replica and Stereo-Matterport3D for the first time. Remarkably, we show empirically that our StereoEchoes, on Stereo-Replica and Stereo-Matterport3D, outperforms stereo depth estimation methods by 25%/13.8% RMSE, and surpasses the state-of-the-art audio-visual depth prediction method by 25.3%/42.3% RMSE.
 
 If you use this code please cite:
 ```
