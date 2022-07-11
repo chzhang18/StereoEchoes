@@ -35,7 +35,7 @@ librosa
  - datasets/: datasets preprocess (*data_io.py*) and dataloader for Stereo-Replica (*replica_dataset.py*) and Stereo-Matterport3D  (*mp3d_dataset.py*)
  - models/: StereoEchoes framework based on GwcNet (*gwcnet.py*) and loss functions (*loss.py*)
  - utils/: tool code for metrics
- - checkpoints/: pre-trained weights for Stereo-Replica datasets, download from Baidu Cloud ([Download Extraction Code: ffid](https://pan.baidu.com/s/10Xfp9phfhK0vHj-4MiQh6w).
+ - checkpoints/: pre-trained weights for Stereo-Replica datasets, download from Baidu Cloud ([Download Extraction Code: ffid](https://pan.baidu.com/s/10Xfp9phfhK0vHj-4MiQh6w)).
  - scripts/: test scripts
  - test.py: test code for evaluations
 
